@@ -1,14 +1,13 @@
 # NodeRESTapi
 NODE REST API
 
-Create a User (POST)
 
-localhost:3000/users
+POST: Create a User
+server: localhost:3000/users
 
-Header => Content-Type: application/json
-
-Body =>
-
+Header: Content-Type: application/json
+Body:
+```js
 {
 	"firstName": "Joe",
 	"lastName": "Doe",
@@ -16,3 +15,4 @@ Body =>
 	"password": "joeDoePassword",
 	"tosAgreement": true
 }
+```
